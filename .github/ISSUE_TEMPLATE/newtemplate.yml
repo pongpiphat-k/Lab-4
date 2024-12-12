@@ -1,6 +1,6 @@
 name: Feature
 description: Template for requesting new features or reporting bugs.
-title: "[Feature]: "
+title: "Feature: "
 labels: "true"
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
