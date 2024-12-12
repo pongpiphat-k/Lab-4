@@ -9,45 +9,44 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this feature request!
   - type: input
     id: contact
     attributes:
       label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      description: What is your name?
+      placeholder: ex. Pongpiphat Kalasuk
     validations:
       required: false
   - type: textarea
-    id: what-happened
+    id: details
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: What are the details of your suggestion?
+      description: Explain what you want.
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "Feature details!"
     validations:
       required: true
   - type: dropdown
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Type of request
+      description: Select the type of your request.
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - New Feature (Default)
+        - Bug (Edge)
       default: 0
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: OS
     attributes:
-      label: What browsers are you seeing the problem on?
+      label:  What is the OS for your suggestion?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Windows
+        - MacOS
+        - Linux
   - type: textarea
     id: logs
     attributes:
