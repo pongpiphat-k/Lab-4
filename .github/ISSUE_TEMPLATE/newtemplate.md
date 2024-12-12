@@ -2,6 +2,7 @@
 name: Feature
 title: "Feature: "
 about: "Template for new features."
+description: " "
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
