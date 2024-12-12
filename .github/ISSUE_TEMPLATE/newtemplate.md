@@ -1,5 +1,6 @@
 ---
 name: Feature
+description: "Template for creating feature."
 title: "Feature: "
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
