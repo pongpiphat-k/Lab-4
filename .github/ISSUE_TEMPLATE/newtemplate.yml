@@ -1,6 +1,6 @@
 name: Feature
 title: "Feature: "
-description: " "
+description: "Template for requesting new features or reporting bugs."
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
