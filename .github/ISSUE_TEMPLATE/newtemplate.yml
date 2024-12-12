@@ -6,10 +6,6 @@ projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this feature request!
   - type: input
     id: contact
     attributes:
@@ -18,15 +14,10 @@ body:
       placeholder: ex. Pongpiphat Kalasuk
     validations:
       required: false
-  - type: textarea
-    id: details
+  - type: markdown
     attributes:
-      label: What are the details of your suggestion?
-      description: Explain what you want.
-      placeholder: Tell us what you see!
-      value: "Feature details!"
-    validations:
-      required: true
+      value: |
+        Thanks for taking the time to fill out this feature request!
   - type: dropdown
     id: version
     attributes:
@@ -48,16 +39,11 @@ body:
         - MacOS
         - Linux
   - type: textarea
-    id: logs
+    id: details
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com). 
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
+      label: What are the details of your suggestion?
+      description: Explain what you want.
+      placeholder: Tell us what you see!
+      value: "Feature details!"
+    validations:
+      required: true
