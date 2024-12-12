@@ -1,7 +1,7 @@
 ---
 name: Feature
-description: "Template for creating feature."
 title: "Feature: "
+description: "Template for new features."
 projects: ["octo-org/1", "octo-org/44"]
 assignees:
   - octocat
@@ -17,36 +17,34 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this feature request!
   - type: dropdown
     id: version
     attributes:
       label: Type of request
-      description: Selete the type of your request
+      description: Select the type of your request.
       options:
         - New Feature
         - Bug
-      default: 0
+      default: New Feature
     validations:
       required: true
   - type: dropdown
-    id: browsers
+    id: os
     attributes:
-      label: What is the OS which you want to suggest?
+      label: What is the OS for your suggestion?
       multiple: true
       options:
         - Windows
-        - MacOs
+        - MacOS
         - Linux
   - type: textarea
-    id: what-happened
+    id: details
     attributes:
       label: What are the details of your suggestion?
-      description: Explain what do you want
+      description: Explain what you want.
       placeholder: Tell us what you see!
       value: "Feature details!"
     validations:
       required: true
 ---
-
-
